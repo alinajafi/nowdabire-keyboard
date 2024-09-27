@@ -1,5 +1,5 @@
 ///////////////////////////////////////////////
-//Author: Ali Najafi <alinajafies@telegmail.com>
+//Author: Ali Najafi <ali.najafi.88@gmail.com>
 //<http://nowdabire.blogfa.com>
 //<http://siveb.blogfa.com>
 
@@ -72,7 +72,7 @@ xkb_symbols "nowdabire" {
 
 };
 
-//Nowdabire Colemak 1.0
+//Nowdabire Colemak 2.0
 
 partial alphanumeric_keys
 xkb_symbols "nowdabire_colemak" {
@@ -130,9 +130,9 @@ xkb_symbols "nowdabire_colemak" {
     key <AB07> {	[	  m,	M,		mu				]	};
     key <AB08> {	[     comma,	less,		lessthanequal			]	};
     key <AB09> {	[    period,	greater,	greaterthanequal		]	};
-    key <AB10> {	[     slash,	question,	backslash			]	};
+    key <AB10> {	[  question,	exclam,		slash                   	]	};
 
-    key <BKSL> {	[ backslash,	bar,		brokenbar			]	};
+    key <BKSL> {	[     slash,    bar,		backslash,	brokenbar	]	};
     // End alphanumeric section
 
     include "nbsp(level3)"
@@ -140,7 +140,7 @@ xkb_symbols "nowdabire_colemak" {
 
 };
 
-//Nowdabire US 4.0
+//Nowdabire US 5.0
 
 partial alphanumeric_keys
 xkb_symbols "nowdabire_us" {
@@ -199,9 +199,9 @@ xkb_symbols "nowdabire_us" {
     key <AB07> {	[	  m,	M,		mu				]	};
     key <AB08> {	[     comma,	less,		NoSymbol,	lessthanequal	]	};
     key <AB09> {	[    period,	greater,	ellipsis,	greaterthanequal]	};
-    key <AB10> {	[     slash,	question,	NoSymbol,	periodcentered	]	};
+    key <AB10> {	[  question,	exclam,		slash,		periodcentered	]	};
 
-    key <BKSL> {	[ backslash,         bar					]	};
+    key <BKSL> {	[     slash,    bar,		backslash			]	};
     // End alphanumeric section
     
     include "nbsp(level3)"
@@ -338,7 +338,7 @@ xkb_symbols "nowdabire_qur" {
     
 };
 
-//Persian Super 5.0
+//Persian Super 6.0
 
 partial alphanumeric_keys
 xkb_symbols "persian_sup" {
@@ -358,12 +358,12 @@ xkb_symbols "persian_sup" {
 
     // Persian letters and symbols
     key <AD01> { [ Arabic_dad,		Arabic_sukun,		0x10006C9	] };
-    key <AD02> { [ Arabic_sad,		Arabic_dammatan,	0x10006CF	] };
-    key <AD03> { [ Arabic_theh,		Arabic_kasratan,	EuroSign	] };
-    key <AD04> { [ Arabic_qaf,		Arabic_fathatan				] };
-    key <AD05> { [ Arabic_feh,		Arabic_damma				] };
-    key <AD06> { [ Arabic_ghain,	Arabic_kasra,		0x1000656	] };
-    key <AD07> { [ Arabic_ain,		Arabic_fatha,		Arabic_superscript_alef	] };
+    key <AD02> { [ Arabic_sad,		Arabic_damma,		0x10006CF	] };
+    key <AD03> { [ Arabic_theh,		Arabic_kasra,		EuroSign	] };
+    key <AD04> { [ Arabic_qaf,		Arabic_fatha				] };
+    key <AD05> { [ Arabic_feh,		Arabic_dammatan				] };
+    key <AD06> { [ Arabic_ghain,	Arabic_kasratan,	0x1000656	] };
+    key <AD07> { [ Arabic_ain,		Arabic_fathatan,	Arabic_superscript_alef	] };
     key <AD08> { [ Arabic_heh,		Arabic_shadda,		0x1000653	] };
     key <AD09> { [ Arabic_khah,		bracketright				] };
     key <AD10> { [ Arabic_hah,		bracketleft				] };
@@ -388,9 +388,9 @@ xkb_symbols "persian_sup" {
     key <AB04> { [ Arabic_ra,		0x100200e				] };
     key <AB05> { [ Arabic_thal,		0x100200c,		0x100200d	] };
     key <AB06> { [ Arabic_dal,		0x100200f				] };
-    key <AB07> { [ Arabic_peh,		Arabic_tatweel,		apostrophe	] };
-    key <AB08> { [ Arabic_waw,		greater,		comma		] };
-    key <AB09> { [ period,		less,			ellipsis	] };
+    key <AB07> { [ Arabic_peh,		Arabic_tatweel,		comma   	] };
+    key <AB08> { [ Arabic_waw,		ellipsis,               greater		] };
+    key <AB09> { [ period,		exclam,			less		] };
     key <AB10> { [ Arabic_comma,	Arabic_question_mark,	question	] };
 
     key <TLDE> { [ apostrophe,		0x100200d,		asciitilde	] };
