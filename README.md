@@ -32,6 +32,7 @@ Then, you can select any layout; Nowdabire, Nowdabire Optimal, Nowdabire (Colema
 (Level 1) -
 
 ==========Nowdabire 8.0 - Ordibeheŝt e 1396=============
+
 										Ø	≠	±
 	¹	²	³	£	€	÷	×	•	LRM	°	–	−
 ~	!	@	#	$	%	^	&	*	(	)	_	+
@@ -57,11 +58,13 @@ Then, you can select any layout; Nowdabire, Nowdabire Optimal, Nowdabire (Colema
 
 					Space
 ========================================================
+
 LRM: Left-to-Right Mark
 CAA: Combining Acute Accent, to insert acute on an arbitrary letter, for example: ʌ́.
 
 
 ==========Nowdabire (Colemak) 2.0 - Ŝahrivar e 1403=====
+
 										Ø	≠	±
 	¹	²	³	£	€	÷	×	•	LRM	°	–	−
 ~	!	@	#	$	%	^	&	*	(	)	_	+
@@ -87,10 +90,12 @@ CAA: Combining Acute Accent, to insert acute on an arbitrary letter, for example
 
 					Space
 ========================================================
+
 LRM: Left-to-Right Mark
 
 
 ==========Nowdabire (US) 5.0 - Ŝahrivar e 1403==========
+
 										Ø	≠	±
 	¹	²	³	£	€	÷	×	•	LRM	°	–	−
 ~	!	@	#	$	%	^	&	*	(	)	_	+
@@ -116,11 +121,13 @@ LRM: Left-to-Right Mark
 
 					Space
 ========================================================
+
 LRM: Left-to-Right Mark
 CAA: Combining Acute Accent, to insert acute on an arbitrary letter, for example: ʌ́.
 
 
 ==========Persian (Super) 5.0 - Ŝahrivar e 1403=========
+
 ‎	1	2	3	4	5	6	7	8	9	0		
 ‎~	`	@	#	$	%	^	&	•	C	°	_	−
 ZWJ	!	٬	٫	﷼	٪	÷	×	*	(	)	–	+
@@ -146,6 +153,7 @@ ZWJ	!	٬	٫	﷼	٪	÷	×	*	(	)	–	+
 ‎					Zero-Width Non-Joiner فاصله‌یِ مجازی
 ‎					Space فاصله
 ========================================================
+
 ZWJ: Zero-Width Joiner اتصالِ مجازی
 ‎٬: ‎جداکننده‌یِ هزارها 	‎۲٬۳۴۱
 ‎٫: ‎جداکننده‌یِ اعشار 		‎۱٫۴
@@ -156,6 +164,7 @@ ZWN: Zero-Width Non-Joiner فاصله‌یِ مجازی
 
 
 ==========Nowdabire (Optimal) 2.0 - Ordibeheŝt e 1396===
+
 `	′	″	‴							Ø	≠	±
 ~	¹	²	³	£	€	÷	×	•	LRM	°	–	−
 ?	!	@	#	$	%	^	&	*	(	)	_	+
@@ -181,5 +190,6 @@ ZWN: Zero-Width Non-Joiner فاصله‌یِ مجازی
 
 					Space
 ========================================================
+
 LRM: Left-to-Right Mark
 CAA: Combining Acute Accent, to insert acute on an arbitrary letter, for example: ʌ́.
